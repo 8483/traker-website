@@ -1,0 +1,373 @@
+html,
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    background: rgb(250, 250, 250);
+    /* background: #555; */
+    height: 100%;
+    cursor: default;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* LINKS ================================================================================ */
+
+a {
+    text-decoration: none;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+/* NAVIGATION ================================================================================ */
+
+.navigation {
+    top: 0;
+    background: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navigation a {
+    color: #aaa;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo a {
+    color: #000;
+}
+
+.navigation a:hover {
+    color: #000;
+}
+
+/* CONTENT ================================================================================ */
+
+.content {
+    margin-top: 80px;
+}
+
+/* MAIN ================================================================================ */
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    padding: 30px 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-cta {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.main-cta h1 {
+    font-size: 40pt;
+    margin: 0px;
+}
+
+.main-cta p {
+    margin: 50px 0px;
+    font-size: 20pt;
+    color: #888;
+}
+
+.main-devices {
+    width: 50%;
+}
+
+/* TITLE ================================================================================ */
+
+.title {
+    display: flex;
+    margin: 50px 0px;
+    align-content: center;
+    justify-content: center;
+    font-size: 30pt;
+    color: #ccc;
+    width: 100%;
+}
+
+/* USE CASES ================================================================================ */
+
+.use-cases {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.use-case {
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 10px;
+}
+
+/* FEATURES ================================================================================ */
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 25%;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.feature img {
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+/* PRICING ================================================================================ */
+
+.pricing {
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-amount {
+    font-size: 60pt;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.price-currency {
+    font-size: 30pt;
+    color: #ccc;
+}
+
+.price-info {
+}
+
+.price-info-vat {
+    margin-left: 30px;
+    color: #ccc;
+}
+
+.benefits {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16pt;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.benefit:last-child {
+    margin: 0px;
+}
+
+.benefits i {
+    font-size: 25pt;
+    color: #888;
+    width: 50px;
+    margin-right: 40px;
+}
+
+/* CONTACT ================================================================================ */
+
+.contact {
+    background: #333;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    font-size: 30pt;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-info i {
+    margin-right: 30px;
+}
+
+.contact label {
+    text-align: left;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+#message-email {
+    width: 300px;
+}
+
+#message {
+    width: 300px;
+    height: 150px;
+}
+
+.footer {
+    color: white;
+    font-size: 12pt;
+}
+
+/* INPUT ================================================================================ */
+
+input {
+    font-family: inherit;
+    font-size: 11pt;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    /* box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.2); */
+    /* box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.3); */
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: 11pt;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    /* box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.2); */
+    /* box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.3); */
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* BUTTONS ================================================================================ */
+
+button {
+    background-color: #666;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10pt;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button-wrap {
+    display: flex;
+}
+
+.btn-small {
+    font-size: 12pt;
+    padding: 6px 15px;
+}
+.btn-medium {
+    font-size: 16pt;
+    padding: 10px 20px;
+}
+.btn-large {
+    font-size: 20pt;
+    padding: 15px 25px;
+}
+
+.btn-blue {
+    background: rgb(46, 113, 230);
+    color: white;
+}
+
+.btn-blue:hover {
+    background: rgb(35, 86, 174);
+}
+
+.btn-green {
+    background: rgb(22, 152, 22);
+    color: white;
+}
+
+.btn-green:hover {
+    background: rgb(16, 106, 16);
+}
+
+.btn-gray {
+    background: rgb(115, 115, 115);
+    color: white;
+}
+
+.btn-gray:hover {
+    background: rgb(88, 88, 88);
+}
+
+/* MOBILE ================================================================================ */
+
+@media only screen and (max-device-width: 600px) {
+    .main-cta {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-devices {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .feature {
+        width: 40%;
+    }
+
+    .price {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}

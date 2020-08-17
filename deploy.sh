@@ -1,0 +1,1 @@
+rsync -av -e 'ssh' ./index.html ./traker-logo-light.png ivan@161.35.20.171:~/traker-website/
