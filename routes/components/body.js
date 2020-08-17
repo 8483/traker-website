@@ -1,6 +1,20 @@
 let header = `
+    <div id="load-container">
+        <div id="loader"></div>
+    </div>
+
     <div class="container" id="container">
-        <div id="picBox"></div>
+
+        <div id="message-container"></div>
+        
+        <div id="modal">
+            <div id="modal-wrapper">
+                <div id="modal-close"><i class="fas fa-times"></i></div>
+                <div id="modal-content"></div>
+            </div>
+        </div>
+
+        </div>
         <nav class="navigation">
             <a href="/">
                 <img class="logo" src="pics/traker-logo-dark.png"/>
@@ -12,7 +26,7 @@ let header = `
                 <i class="fas fa-mobile-alt icon-gap"></i>
                 +389 76 270 270
             </span> -->
-            <button id="demo" class="btn-small btn-blue">Закажете Демо</button>
+            <button class="btn-demo btn-small btn-blue">Закажете Демо</button>
         </nav>
 
         <div class="content">
@@ -26,7 +40,7 @@ let header = `
                         <a href="#features" style="margin-right:30px">
                             <button class="btn-medium btn-green">Дознајте повеќе</button>
                         </a>
-                        <button id="demo" class="btn-medium btn-blue">Закажете Демо</button>
+                        <button class="btn-demo btn-medium btn-blue">Закажете Демо</button>
                     </div>
                 </div>
 
@@ -134,11 +148,10 @@ let header = `
             
             <div class="pricing">
                 <div class="price">
-                    <span>
+                    <span style="display: flex; align-items: center;">
                         <span class="price-amount">899</span>
                         <span class="price-currency">Денари</span>
                     </span>
-                    <br>
                     <br>
                     <span class="price-info">по корисник / месечно <span class="price-info-vat">без ДДВ</span></span>
                 </div>
@@ -153,30 +166,24 @@ let header = `
             </div>
 
             <div class="title">
-                <button id="demo" class="btn-large btn-blue">Закажете Демо</button>
+                <button class="btn-demo btn-large btn-blue">Закажете Демо</button>
             </div>
 
             <a id="contact" class="anchor"></a>
             <div class="contact">
-                <h3 style="font-weight: 600; color: #999;">...или поставете прашање</h3>
+                <span class="contact-info"><i class="fas fa-mobile-alt icon-gap"></i>+389 76 270 270</span>
                 <br>
                 <div class="input-group">
                     <label>Емаил</label>
-                    <input id="message-email">
+                    <input id="contact-email" type="email">
                 </div>
                 <br>
                 <div class="input-group">
                     <label>Порака</label>
-                    <textarea id="message"></textarea>
+                    <textarea id="contact-message"></textarea>
                 </div>
-                <br>
+                <br><br>
                 <button id="message-send-button" class="btn-medium btn-gray">Испрати</button>
-                <br>
-                <br>
-                <span class="contact-info"><i class="fas fa-mobile-alt icon-gap"></i>+389 76 270 270</span>
-                <br>
-                <br>
-                <span class="footer">Traker - 2020</span>
             </div>
             
         </div>

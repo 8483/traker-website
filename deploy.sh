@@ -1,1 +1,2 @@
-rsync -av -e 'ssh' ./index.html ./traker-logo-light.png ivan@161.35.20.171:~/traker-website/
+rsync -av -e 'ssh' ./server.js ./app.js ./package.json ./package-lock.json ./mail.js ./routes ./public ivan@161.35.20.171:~/traker-website/ && 
+ssh ivan@161.35.20.171 forever restart /home/ivan/traker-website/server.js

@@ -1,6 +1,7 @@
 let express = require("express"); // Web Framework
 
 let index = require("./routes/index");
+let mail = require("./mail");
 
 let app = express();
 
@@ -13,6 +14,6 @@ app.all("/*", function (req, res, next) {
     next();
 });
 
-app.use(express.static("./public")).use(index);
+app.use(express.static("./public")).use(express.json()).use(index).use(mail);
 
 module.exports = app; // Needed for the tests
