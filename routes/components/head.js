@@ -2,8 +2,19 @@ let head = `
     <!DOCTYPE html>
     <html>
         <head>
-            <meta charset="utf-8">
-            <title>Traker</title>
+            <title>Traker CRM - Целосна контрола врз Вашата компанија</title>
+            
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name = "description" content = "Целосна контрола врз Вашата компанија. Сите информации на едно место, со неверојатна прегледност." />
+            <meta name="robots" content="index, follow">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+            <meta property="og:title" content="Traker CRM">
+            <meta property="og:description" content="Целосна контрола врз Вашата компанија. Сите информации на едно место, со неверојатна прегледност.">
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="http://www.traker.mk/pics/devices-resized.png">
+            <meta property="og:url" content="http://www.traker.mk">
+            <meta property="og:site_name" content="Traker CRM">
             
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
             <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
