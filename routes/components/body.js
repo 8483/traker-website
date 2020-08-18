@@ -19,7 +19,7 @@ let header = `
             <a href="/">
                 <img class="logo" src="pics/traker-logo-dark.png"/>
             </a>
-            <a href="#problems">Зошто</a>
+            <a href="#why">Зошто</a>
             <a href="#features">Како</a>
             <a href="#price">Цена</a>
             <a href="#contact">Контакт</a>
@@ -38,7 +38,7 @@ let header = `
                     <h1>Целосна контрола врз Вашата компанија</h1>
                     <p>Сите информации на едно место, со неверојатна прегледност</p>
                     <div class="button-wrap">
-                        <a href="#features" style="margin-right:30px">
+                        <a href="#why" style="margin-right:30px">
                             <button class="btn-medium btn-green">Дознајте повеќе</button>
                         </a>
                         <button class="btn-demo btn-medium btn-blue">Закажете Демо</button>
@@ -49,16 +49,16 @@ let header = `
             </div>
 
             <div class="title">
-                <a id="problems" class="anchor"></a>
-                <span>Проблеми</span>
+                <a id="why" class="anchor"></a>
+                <span>Зошто ни треба?</span>
             </div>
 
 
             <div id="why" class="use-cases">
 
                 <div class="use-case">
-                    <h1>Податоци</h1>
-                    <p>Што се случува со податоците кога ќе си замине вработен?</p>
+                <h1>Извештаи</h1>
+                    <p>Дали секојдневно се пишуваат извештаи за сработеното?</p>
                 </div>
 
                 <div class="use-case">
@@ -69,6 +69,11 @@ let header = `
                 <div class="use-case">
                     <h1>Одговорност</h1>
                     <p>Колку често се заборава да се исполнат обврските?</p>
+                </div>
+
+                <div class="use-case">
+                    <h1>Податоци</h1>
+                    <p>Што се случува со податоците кога ќе си замине вработен?</p>
                 </div>
 
                 <div class="use-case">
@@ -90,7 +95,7 @@ let header = `
 
             <div class="title">
                 <a id="features" class="anchor"></a>
-                <span>Функционалности</span>
+                <span>Како функционира?</span>
             </div>
 
             <div class="features">
@@ -182,6 +187,7 @@ let header = `
                     <label>Емаил</label>
                     <input id="contact-email" type="email">
                 </div>
+                <br>
                 <br>
                 <div class="input-group">
                     <label>Порака</label>
