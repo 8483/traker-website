@@ -19,7 +19,8 @@ let header = `
             <a href="/">
                 <img class="logo" src="pics/traker-logo-dark.png"/>
             </a>
-            <a href="#features">Функционалности</a>
+            <a href="#problems">Зошто</a>
+            <a href="#features">Како</a>
             <a href="#price">Цена</a>
             <a href="#contact">Контакт</a>
             <!-- <span>
@@ -47,41 +48,45 @@ let header = `
                 <img class="main-devices" src="pics/devices-resized.png"/>
             </div>
 
-            <!--
+            <div class="title">
+                <a id="problems" class="anchor"></a>
+                <span>Проблеми</span>
+            </div>
+
+
             <div id="why" class="use-cases">
 
                 <div class="use-case">
-                    <h1>Продажба</h1>
-                    <p>Следете што, кога и кој разговарал со Вашите клиенти</p>
+                    <h1>Податоци</h1>
+                    <p>Што се случува со податоците кога ќе си замине вработен?</p>
                 </div>
 
                 <div class="use-case">
-                    <h1>Набавки</h1>
-                    <p>Знајте во секој момент до каде е набавката на роба</p>
+                    <h1>Историја</h1>
+                    <p>Дали сите случки и потсетници се во нотеси и маилови?</p>
                 </div>
 
                 <div class="use-case">
-                    <h1>Финансии</h1>
-                    <p>Проверете колку имате потрошено на телефон минатиот месец</p>
+                    <h1>Одговорност</h1>
+                    <p>Колку често се заборава да се исполнат обврските?</p>
                 </div>
 
                 <div class="use-case">
-                    <h1>Човечки Ресурси</h1>
-                    <p>Едноставно следење кој и кога е на годишен одмор</p>
+                    <h1>Анализи</h1>
+                    <p>Дали секојдневно се справувате со многубројни и неефикасни Excel извештаи?</p>
                 </div>
 
                 <div class="use-case">
-                    <h1>Плата</h1>
-                    <p>Преглед на исплатени бонуси/казни на вработените</p>
+                    <h1>Организација</h1>
+                    <p>Се случува ли еден ист клиент да биде контактиран за иста работа повеќе пати?</p>
                 </div>
 
                 <div class="use-case">
-                    <h1>Администрација</h1>
-                    <p>Водење на електронски деловодник</p>
+                    <h1>Пристап</h1>
+                    <p>Ви затребал ли некој критичен податок кој е достапен само на работа?</p>
                 </div>
 
             </div>
--->
 
             <div class="title">
                 <a id="features" class="anchor"></a>
@@ -160,7 +165,7 @@ let header = `
                     <div class="benefit"><i class="fas fa-wallet"></i><span> Без дополнителни трошоци</span></div>
                     <div class="benefit"><i class="fas fa-headset"></i><span> Поддршка 24/7/365</span></div>
                     <div class="benefit"><i class="fas fa-database"></i><span> Пристап до податоците во секое време</span></div>
-                    <div class="benefit"><i class="fas fa-code"></i><span> Последна верзија од апликацијата</span></div>
+                    <div class="benefit"><i class="fas fa-code"></i><span> Најнова верзија од апликацијата</span></div>
                 </div>
 
             </div>
