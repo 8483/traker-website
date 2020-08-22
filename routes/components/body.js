@@ -36,7 +36,7 @@ let header = `
 
                 <div class="main-cta">
                     <h1>Целосна контрола врз Вашата компанија</h1>
-                    <p>Сите информации на едно место, со неверојатна прегледност</p>
+                    <p>Следете <b style="color: black;">настани</b>, <b style="color: black;">задачи</b>, <b style="color: black;">зделки</b> и <b style="color: black;">контакти</b> со неверојатна прегледност</p>
                     <div class="button-wrap">
                         <a href="#why" style="margin-right:30px">
                             <button class="btn-medium btn-green">Дознајте повеќе</button>
@@ -50,7 +50,7 @@ let header = `
 
             <div class="title">
                 <a id="why" class="anchor"></a>
-                <span>Зошто ни треба?</span>
+                <span>Зошто Ви треба?</span>
             </div>
 
 
