@@ -36,7 +36,14 @@ let header = `
 
                 <div class="main-cta">
                     <h1>Целосна контрола врз Вашата компанија</h1>
-                    <p>Следете <b style="color: black;">настани</b>, <b style="color: black;">задачи</b>, <b style="color: black;">зделки</b> и <b style="color: black;">контакти</b> со неверојатна прегледност</p>
+                    <p>
+                        Следете 
+                        <b style="color: black;">активности</b>, 
+                        <b style="color: black;">зделки</b>, 
+                        <b style="color: black;">контакти</b> и 
+                        <b style="color: black;">клиенти</b> 
+                        со неверојатна прегледност
+                    </p>
                     <div class="button-wrap">
                         <a href="#why" style="margin-right:30px">
                             <button class="btn-medium btn-green">Дознајте повеќе</button>
@@ -101,53 +108,70 @@ let header = `
             <div class="features">
 
                 <div class="feature">
-                    <img src="pics/feature_event.jpg"/>
-                    <h1>Настан</h1>
-                    <p>Внесете што се случило во компанијата, и поврзете ја информацијата со лице, компанија и проект.</p>
+                    <img src="pics/activity.jpg"/>
+                    <h1>Активност</h1>
+                    <p>Внесете што треба да се случи, кој е одговорен и со кого е поврзана активноста. По извршувањето, обележете дека е сработено и внесете коментар.</p>
                 </div>
                 
                 <div class="feature">
-                    <img src="pics/feature_task.jpg"/>
-                    <h1>Задача</h1>
-                    <p>Внесете што треба да се случи, и изберете кој е одговорен за задачата.</p>
+                    <img src="pics/dashboard.jpg"/>
+                    <h1>Работна табла</h1>
+                    <p>Преглед на сите активности и зделки поврзани со вас.</p>
                 </div>
 
                 <div class="feature">
-                    <img src="pics/feature_events.jpg"/>
-                    <h1>Настани</h1>
-                    <p>Историја на сите настани, со ефикасно пребарување.</p>
+                    <img src="pics/activities.jpg"/>
+                    <h1>Активности</h1>
+                    <p>Историја на сите активности, минати и идни, во целата компанија.</p>
                 </div>
 
                 <div class="feature">
-                    <img src="pics/feature_tasks.jpg"/>
-                    <h1>Задачи</h1>
-                    <p>Историја на сите задачи, идни и минати.</p>
+                    <img src="pics/people.jpg"/>
+                    <h1>Контакти</h1>
+                    <p>Преглед на сите Ваши <b>контакти</b>.</p>
                 </div>
 
                 <div class="feature">
-                    <img src="pics/feature_people.jpg"/>
-                    <h1>Лица</h1>
-                    <p>Сите информации за Вашите <b>контакти</b> на едно место и настаните/задачите поврзани со нив.</p>
+                    <img src="pics/person.jpg"/>
+                    <h1>Контакт</h1>
+                    <p>Преглед на <b>контакт</b>, и сите активности и зделки поврзани со него, како и контакт информации.</p>
                 </div>
 
                 <div class="feature">
-                    <img src="pics/feature_companies.jpg"/>
+                    <img src="pics/companies.jpg"/>
                     <h1>Компании</h1>
-                    <p>Сите информации за Вашите <b>клиенти</b> на едно место и настаните/задачите поврзани со нив.</p>
+                    <p>Преглед на сите Ваши <b>клиенти</b>.</p>
                 </div>
 
                 <div class="feature">
-                    <img src="pics/feature_companies.jpg"/>
-                    <h1>Проекти</h1>
-                    <p>Сите информации за Вашите <b>проекти</b> на едно место и настаните/задачите поврзани со нив.</p>
+                    <img src="pics/company.jpg"/>
+                    <h1>Компанија</h1>
+                    <p>Преглед на <b>клиент</b>, и сите активности и зделки поврзани со него, како и контакт информации.</p>
                 </div>
 
                 <div class="feature">
-                    <img src="pics/feature_reports.jpg"/>
-                    <h1>Извештаи</h1>
-                    <p>Генератор на извештаи со групирање на податоците за поголема прегледност.</p>
+                    <img src="pics/products.jpg"/>
+                    <h1>Производи</h1>
+                    <p>Преглед на сите Ваши <b>производи</b>.</p>
                 </div>
 
+                <div class="feature">
+                    <img src="pics/product.jpg"/>
+                    <h1>Производ</h1>
+                    <p>Преглед на <b>производ</b>, и сите активности и зделки поврзани со него.</p>
+                </div>
+
+                <div class="feature">
+                    <img src="pics/types.jpg"/>
+                    <h1>Подесувања</h1>
+                    <p>Видови на активности, лица, клиенти и статуси на зделки.</p>
+                </div>
+
+                <div class="feature">
+                    <img src="pics/users.jpg"/>
+                    <h1>Корисници</h1>
+                    <p>Преглед на сите корисници, и ажурирање на истите.</p>
+                </div>
 
             </div>
 
@@ -159,8 +183,8 @@ let header = `
             <div class="pricing">
                 <div class="price">
                     <span style="display: flex; align-items: center;">
-                        <span class="price-amount">899</span>
-                        <span class="price-currency">Денари</span>
+                        <span class="price-amount">15</span>
+                        <span class="price-currency">EUR</span>
                     </span>
                     <br>
                     <span class="price-info">по корисник / месечно <span class="price-info-vat">без ДДВ</span></span>
@@ -170,7 +194,7 @@ let header = `
                     <div class="benefit"><i class="fas fa-wallet"></i><span> Без дополнителни трошоци</span></div>
                     <div class="benefit"><i class="fas fa-headset"></i><span> Поддршка 24/7/365</span></div>
                     <div class="benefit"><i class="fas fa-database"></i><span> Пристап до податоците во секое време</span></div>
-                    <div class="benefit"><i class="fas fa-code"></i><span> Најнова верзија од апликацијата</span></div>
+                    <div class="benefit"><i class="fas fa-code"></i><span> Најнова верзија на апликацијата</span></div>
                 </div>
 
             </div>

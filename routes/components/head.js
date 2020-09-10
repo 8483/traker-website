@@ -3,6 +3,8 @@ let head = `
     <html>
         <head>
             <title>Traker CRM - Сите информации на едно место</title>
+            <link rel="shortcut icon" href="/pics/favicon.ico" type="image/x-icon" />
+            <link rel="icon" href="/pics/favicon.ico" type="image/x-icon" />
             
             <meta http-equiv="Content-Type" content="text/html" charset=utf-8" />
             <meta name ="description" content="Целосна контрола врз Вашата компанија. Сите информации на едно место, со неверојатна прегледност." />
