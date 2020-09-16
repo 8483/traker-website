@@ -2,7 +2,7 @@ let head = `
     <!DOCTYPE html>
     <html>
         <head>
-            <title>Traker CRM - Сите информации на едно место</title>
+            <title>Traker CRM - Целосна контрола врз Вашата компанија</title>
             <link rel="shortcut icon" href="/pics/favicon.ico" type="image/x-icon" />
             <link rel="icon" href="/pics/favicon.ico" type="image/x-icon" />
             

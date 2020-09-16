@@ -203,6 +203,22 @@ let header = `
                 <button class="btn-demo btn-large btn-blue">Закажете Демо</button>
             </div>
 
+            <div class="clients">
+
+                <div class="client" style="width: 400px;">
+                    <a href="https://bioteklab.com.mk/" target="_blank">    
+                        <img src="pics/logo_biotek.png"/>
+                    </a>
+                </div>
+
+                <div class="client" style="width: 200px;">
+                    <a href="https://officeplus.mk/" target="_blank">   
+                        <img src="pics/logo_officeplus.png"/>
+                    </a>
+                </div>
+
+            </div>
+
             <a id="contact" class="anchor"></a>
             <div class="contact">
                 <span class="contact-info"><i class="fas fa-mobile-alt icon-gap"></i>+389 76 270 270</span>

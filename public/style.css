@@ -237,6 +237,28 @@ a.anchor {
     margin-right: 40px;
 }
 
+/* CLIENTS ================================================================================ */
+
+.clients {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client img {
+    opacity: 0.5;
+    max-width: 100%;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.client img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
 /* CONTACT ================================================================================ */
 
 .contact {
