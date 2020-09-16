@@ -1,3 +1,5 @@
+fbq("track", "landed");
+
 function showModal() {
     let modal = document.getElementById("modal");
     modal.style.visibility = "visible";
@@ -104,6 +106,11 @@ document.querySelectorAll(".btn-demo").forEach((el) =>
                 };
 
                 sendMail("/mail-demo", email, data, () => {
+                    fbq("track", "scheduledDemo");
+                    gtag("event", `scheduled-demo`, {
+                        event_category: `scheduled-demo`,
+                        event_label: `scheduled-demo`,
+                    });
                     closeModal();
                 });
             }
@@ -133,6 +140,11 @@ messageButton.addEventListener("click", (event) => {
     };
 
     sendMail("/mail-message", data, messageEl.value, () => {
+        fbq("track", "sentMessage");
+        gtag("event", `sent-message`, {
+            event_category: `sent-message`,
+            event_label: `sent-message`,
+        });
         emailEl.value = "";
         messageEl.value = "";
     });
